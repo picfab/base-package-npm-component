@@ -1,3 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-ReactDOM.render(<div>APP</div>, document.getElementById('root'))
+import './styles.css'
+const MyComponent = () => (
+  <h1>Hello from My Component</h1>
+)
+export default MyComponent
